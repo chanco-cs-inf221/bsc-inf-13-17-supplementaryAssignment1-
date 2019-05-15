@@ -1,0 +1,108 @@
+       body{
+       	margin: 0px;
+       	background-color: skyblue;
+       }
+       .first{
+       	    border : 2px solid purple;
+	    	background-color: green;
+	    	color: white;
+	    }
+	    h2{
+	    	font-size:30px;
+	    	color: white;
+	    	font-family:Segoe UI;
+	    }
+        a{
+        	margin-bottom :100px;
+        	margin-right: 50px;
+        	font-size:20px;
+        	color: gold;
+        	font-family:Segoe UI;
+        	text-decoration: none;
+        }
+        a:hover{
+        	background-color: skyblue;
+        	color: gold;
+        }
+	    img{
+	    	border : 2px solid white;
+	    	margin-right: 200px;
+	    	margin-left:  280px;
+	    	width: 100px;
+	    	height: 100px;
+	    }
+		.second{
+			border : 2px solid purple;
+			background-color: green;
+		}
+		.second div{
+			color:white;
+			display: inline-block;
+			text-align: center;
+			border: 2px solid gold;
+			margin :20px;
+			padding: 50px;
+		}
+		#div1,#div4{
+			margin-left: 200px;
+			margin-right: 70px;
+		}
+        #div1{
+        	padding-right :70px;
+        }
+        #div2,#div5{
+        	padding-right: 70px;
+        }
+        #div3,#div6{
+        	margin-left: 70px;
+        }
+        .third{
+        	border : 2px solid purple;
+        	background-color: green;
+        	color: white;
+        }
+        /*For Responsive design*/
+        @media screen and (max-width: 1100px){
+        	h2{
+        		text-align: left;
+        		font-size: 20px;
+        	}
+        	img{
+                margin-left: 0px;
+                margin-right: 0px;
+        	}
+        	a{
+        		margin-right: 10px;
+        	}
+        	.second div{
+        		display: flex;
+        		padding: 0px;
+        		text-align: center;
+        	}
+        	#div1, #div2{
+        		margin-left: 10px;
+        	}
+        	#div1{
+        		margin-right: 20px;
+        	}
+        	#div3{
+        		margin-bottom: 0px;
+        	}
+        	#div4{
+        		margin-top: -0.5px;
+        	}
+        	#div3,#div4,#div5,#div6{
+        		margin-left: 10px; 
+        	}
+        	#div4{
+        		margin-right: 20px;
+        		margin-bottom: 20px;
+        	}
+        }
+        /*Responsiveness at smaller screens*/
+        @media screen and (max-width: 350px){
+        	a{
+        	  display: flex;
+        	  margin-bottom:20px;	
+        	}
+        }
